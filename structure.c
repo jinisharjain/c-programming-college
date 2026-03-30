@@ -11,8 +11,8 @@ int main()
     key.i = 512;
     strcpy(key.ch, "d");
     printf("1.key.i=%d\n", key.i);
-    printf("2.key.ch[0]=%c\n", key.ch[0]);
-    printf("3.key.ch[1]=%d\n", key.ch[1]);
+    printf("2.key.ch[0]=%c\n", key.ch);
+    printf("3.key.ch[1]=%d\n", key.ch);
     key.i = 42;
     printf("4.key.i=%d\n", key.i);
     printf("5.key.ch=%s\n", key.ch);
